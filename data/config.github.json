@@ -11,7 +11,7 @@
     "analysis_concurrency": 3,
     "enrichment_concurrency": 3
   },
-"email": {
+  "email": {
     "enabled": false,
     "smtp_server": "",
     "smtp_port": 465,
@@ -38,12 +38,6 @@
       {
         "name": "量子位",
         "url": "https://www.qbitai.com/feed",
-        "enabled": true,
-        "category": "ai-news"
-      },
-      {
-        "name": "机器之心",
-        "url": "https://www.jiqizhixin.com/rss",
         "enabled": true,
         "category": "ai-news"
       }
@@ -77,10 +71,10 @@
   "webhook": {
     "enabled": true,
     "url_env": "HORIZON_WEBHOOK_URL",
-    "delivery": "summary",
+    "delivery": "full",
     "overview_position": "first",
     "platform": "feishu",
-    "layout": "markdown",
+    "layout": "collapsible",
     "languages": ["zh"]
   }
 }
